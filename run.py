@@ -9,10 +9,10 @@ from pathlib import Path
 import requests
 from telethon import TelegramClient, events
 
-TG_API_ID = 38811018
-TG_API_HASH = "295c8b2cd315ae5633c3888f55bc51a5"
-BOT_TOKEN = "8901634556:AAHruHqUqxArKi7hXKvGIPxp4EEqi6R_Wew"
-AICREDITS_API_KEY = "sk-live-cb5d8ff6563ab452b8dca1ce5f38cdb4827ff06f7a455190280f3f3713e5e5a8"
+TG_API_ID = int(os.environ["TG_API_ID"])
+TG_API_HASH = os.environ["TG_API_HASH"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+AICREDITS_API_KEY = os.environ["AICREDITS_API_KEY"]
 
 AI_MODEL = "openai/gpt-4o-mini"
 AI_API_URL = "https://api.aicredits.in/v1/chat/completions"
@@ -65,17 +65,6 @@ FOLDERS = {
         "Android/media/com.snapchat.android",
     ],
 }
-
-if (
-    TG_API_ID == 12345678
-    or "YOUR_" in TG_API_HASH
-    or "YOUR_" in BOT_TOKEN
-    or "YOUR_" in AICREDITS_API_KEY
-):
-    raise SystemExit("Configure your credentials at the top of the script.")
-
-if not isinstance(TG_API_ID, int):
-    raise SystemExit("TG_API_ID must be an integer.")
 
 
 def load_state():
