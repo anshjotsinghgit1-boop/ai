@@ -28,7 +28,7 @@ STORAGE = Path.home() / "storage" / "shared"
 MAX_HISTORY = 12
 MAX_BATCH = 100
 MAX_FILE_BYTES = 49 * 1024 * 1024
-UPLOAD_DELAY = 0.1
+UPLOAD_DELAY = 0
 
 BOT_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
