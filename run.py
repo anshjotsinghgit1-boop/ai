@@ -651,9 +651,6 @@ async def main():
         return
 
     await client.start()
-    me = await client.get_me()
-    owner_id = me.id
-
     session_path = Path(SESSION + ".session")
 
     if session_path.exists():
