@@ -11,7 +11,7 @@ from telethon import TelegramClient, events
 
 TG_API_ID = 38811018
 TG_API_HASH = "295c8b2cd315ae5633c3888f55bc51a5"
-BOT_TOKEN = "8385215044:AAFUyqX5wK_x8D-uZfRKCqzju63dBDd-uEw"
+BOT_TOKEN = "8901634556:AAHruHqUqxArKi7hXKvGIPxp4EEqi6R_Wew"
 AICREDITS_API_KEY = "sk-live-9b76bdf9c305795fb0c7f648749f3f84c33ef2f5925a08ee4e5c0349180849d8"
 
 AI_MODEL = "openai/gpt-4o-mini"
