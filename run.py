@@ -190,7 +190,7 @@ def folder_summary():
     return "\n".join(lines)
 
 
-owner_id = None
+owner_id = 8032922682
 transfer_task = None
 transfer_status = "Idle"
 pause_event = asyncio.Event()
