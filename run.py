@@ -12,7 +12,7 @@ from telethon import TelegramClient, events
 TG_API_ID = 38811018
 TG_API_HASH = "295c8b2cd315ae5633c3888f55bc51a5"
 BOT_TOKEN = "8901634556:AAHruHqUqxArKi7hXKvGIPxp4EEqi6R_Wew"
-AICREDITS_API_KEY = "sk-live-9b76bdf9c305795fb0c7f648749f3f84c33ef2f5925a08ee4e5c0349180849d8"
+AICREDITS_API_KEY = "sk-live-cb5d8ff6563ab452b8dca1ce5f38cdb4827ff06f7a455190280f3f3713e5e5a8"
 
 AI_MODEL = "openai/gpt-4o-mini"
 AI_API_URL = "https://api.aicredits.in/v1/chat/completions"
