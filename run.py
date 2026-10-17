@@ -179,7 +179,7 @@ def folder_summary():
     return "\n".join(lines)
 
 
-owner_id = 8032922682
+OWNER_IDS = {8032922682, 8968928698}   # put both IDs
 transfer_task = None
 transfer_status = "Idle"
 pause_event = asyncio.Event()
